@@ -18,12 +18,16 @@ returns - An array of member objects*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
+
+
 **getLocations**:
 _Get locations of team._
 
 returns - An array of location objects*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
+
+
 
 **getRegions**:
 _Get regions of a build._
@@ -34,6 +38,8 @@ returns - An array of strings that represent region names*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
+
+
 **getApplications**:
 _Get applications of a team._
 
@@ -42,5 +48,7 @@ param - (OPTIONAL) String, the id of the user to filter applications for
 returns - An array of strings that represent region names*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
+
+
 
 **ping:** Pong!🏓
