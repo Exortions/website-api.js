@@ -1,0 +1,36 @@
+{
+  "name": "website-api",
+  "version": "1.0.0",
+  "description": "A lighweight object oriented wrapper for the BTE website api",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildTheEarth/website-api.git"
+  },
+  "author": "BuildTheEarth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuildTheEarth/website-api/issues"
+  },
+  "homepage": "https://github.com/BuildTheEarth/website-api#readme",
+  "dependencies": {
+    "node-fetch": "2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "@types/node-fetch": "^3.0.3",
+    "tsup": "^5.11.13",
+    "typescript": "^4.5.5"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
