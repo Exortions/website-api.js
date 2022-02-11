@@ -1,5 +1,5 @@
 {
-  "name": "website-api",
+  "name": "@buildtheearth/website-api",
   "version": "1.0.0",
   "description": "A lighweight object oriented wrapper for the BTE website api",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuildTheEarth/website-api.git"
+    "url": "git+https://github.com/BuildTheEarth/website-api.js.git"
   },
   "author": "BuildTheEarth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BuildTheEarth/website-api/issues"
+    "url": "https://github.com/BuildTheEarth/website-api.js/issues"
   },
-  "homepage": "https://github.com/BuildTheEarth/website-api#readme",
+  "homepage": "https://github.com/BuildTheEarth/website-api.js#readme",
   "dependencies": {
     "node-fetch": "2.6.7"
   },
