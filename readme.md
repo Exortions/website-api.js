@@ -17,7 +17,7 @@ Join us in this massive project as we recreate the Earth in Minecraft, in 1:1 sc
 
 ### Documentation
 
-See (documentation.md)[documentation]
+See [documentation.md](documentation)
 
 
 ### Contributors
