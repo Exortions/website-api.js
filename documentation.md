@@ -1,5 +1,6 @@
 ## API Documentation
 _Please read https://github.com/BuildTheEarth/build-team-api as well_
+
 *Object definitions can be found in the [typings](dist/index.d.ts)
 
 ### Getting started
