@@ -25,6 +25,11 @@ See (documentation.md)[documentation]
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://xboxbedrock.github.io"><img src="https://avatars.githubusercontent.com/u/68715625?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xbox</b></sub></a><br /><a href="https://github.com/BuildTheEarth/website-api.js/commits?author=XboxBedrock" title="Code">💻</a> <a href="#projectManagement-XboxBedrock" title="Project Management">📆</a></td>
+  </tr>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
