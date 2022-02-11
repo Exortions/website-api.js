@@ -10,6 +10,7 @@ const websiteApi = new BTEWebsiteAPI("token")
 ```
 
 ### Methods
+____
 
 **getMembers**:
 _Get members of a team._
@@ -18,7 +19,7 @@ returns - An array of member objects*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
-
+____
 
 **getLocations**:
 _Get locations of team._
@@ -27,7 +28,7 @@ returns - An array of location objects*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
-
+____
 
 **getRegions**:
 _Get regions of a build._
@@ -38,7 +39,7 @@ returns - An array of strings that represent region names*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
-
+____
 
 **getApplications**:
 _Get applications of a team._
@@ -49,6 +50,6 @@ returns - An array of strings that represent region names*
 
 throws - WebsiteApiError, if anything invalid/nonexistant was requested
 
-
+____
 
 **ping:** Pong!🏓
