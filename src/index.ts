@@ -64,6 +64,17 @@ export default class BTEWebsiteApi {
         const json = await response.json();
         return json;
     }
+    
+    async patch(url: string, params: Record<string, string> = {]) {
+        const fullUrl = `${this.apiBaseUrl}${url}`;
+        const response = await fetch(fullUrl, {
+            method: 'PATCH',
+            headers: this.apiHeaders,
+            body: JSON.stringify(params);
+        }
+        const json = await response.json();
+        return json;
+    }
 
     /**
    * Fetch all members of a team.
